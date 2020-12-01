@@ -1,12 +1,12 @@
-org: yourorg
-app: yourapp
+org: direboar
+app: aws-http-api-node-cognito
 service: http-api-node
 
 provider:
   name: aws
   runtime: nodejs12.x
   environment:
-    DOMAIN_SUFFIX: your-unique-suffix
+    DOMAIN_SUFFIX: direboarminokuba
   httpApi:
     authorizers:
       serviceAuthorizer:
